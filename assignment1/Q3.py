@@ -5,7 +5,7 @@ def save_error(error, errors=None):
     return errors
 
 
-# Example usage
+
 print(save_error("E1"))
 print(save_error("E2"))
 print(save_error("E3"))
