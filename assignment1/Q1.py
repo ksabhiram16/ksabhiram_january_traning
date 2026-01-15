@@ -8,7 +8,7 @@ def count_message(msg, count=0):
     return count
 
 
-# Sample calls
+
 count_message("heya")
 count_message("hello again")
 count_message("third call")
