@@ -1,0 +1,5 @@
+plt.figure(figsize=(12,8))
+sns.heatmap(df.corr(), annot=False, cmap="coolwarm")
+plt.show()
+sns.scatterplot(x="area", y="price", data=df)
+plt.show()
