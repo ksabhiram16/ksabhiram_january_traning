@@ -3,7 +3,7 @@
 
 ## Advanced Customer Segmentation Using Unsupervised Learning
 
----
+
 
 ##  1. Problem Statement
 
@@ -16,7 +16,7 @@ The objective of this project is to design and implement an **end-to-end custome
 * Segment customers based on behavior
 * Provide actionable business insights
 
----
+
 
 ##  2. Dataset Description
 
@@ -39,24 +39,24 @@ The objective of this project is to design and implement an **end-to-end custome
 | UnitPrice   | Price per unit               |
 | Country     | Customer country             |
 
----
+
 
 ## 3. Project Architecture
 
 ```
-customer-segmentation-unsupervised-yourname
+Capstone Project
 │
-├── data/
-├── notebooks/
-├── src/
-├── results/
-├── reports/
+├── Advanced/
+├── Apply 4 Clustering Alogoriths/
+├── Data Preprocessing/
+├── EDA/
+├── Optimal Cluster Selection/
 ├── main.py
 ├── requirements.txt
 ├── README.md
 ```
 
----
+
 
 ##  4. Machine Learning Lifecycle
 
@@ -68,7 +68,7 @@ customer-segmentation-unsupervised-yourname
 * Outlier detection using IQR
 * Standard Scaling
 
----
+
 
 ### ✔ Feature Engineering (RFM Model)
 
@@ -86,7 +86,7 @@ Monetary = Total Spend
 
 These features form the foundation of clustering.
 
----
+
 
 ##  5. Algorithms Implemented
 
@@ -99,7 +99,7 @@ These features form the foundation of clustering.
 | Autoencoder + KMeans    | Deep Learning based clustering |
 | CLV Segmentation        | Business value grouping        |
 
----
+
 
 ##  6. Cluster Optimization Methods
 
@@ -107,7 +107,7 @@ These features form the foundation of clustering.
 * Silhouette Score
 * Davies-Bouldin Index
 
----
+
 
 ## 7. Model Evaluation Results
 
@@ -123,7 +123,7 @@ These features form the foundation of clustering.
 
  **Best Performing Model: Autoencoder + KMeans**
 
----
+
 
 ## 8. Customer Segments Identified
 
@@ -134,7 +134,7 @@ These features form the foundation of clustering.
 | 2       | Regular Customers | Medium Spending               |
 | 3       | Occasional Buyers | Low Frequency, Low Monetary   |
 
----
+
 
 ## 9. Customer Lifetime Value (CLV) Segmentation
 
@@ -149,7 +149,7 @@ CLV = Monetary × Frequency
 | Medium      | Growth potential         |
 | Low         | Low engagement customers |
 
----
+
 
 ##  10. Business Insights
 
@@ -166,7 +166,7 @@ Premium Customers contribute the majority of revenue.
 | Regular    | Bundle offers                             |
 | Occasional | Email marketing & loyalty incentives      |
 
----
+
 
 ##  11. Advanced Methods Implemented
 
@@ -178,7 +178,7 @@ Deep neural network used to learn latent customer representations before cluster
 
 Revenue-focused segmentation for strategic marketing.
 
----
+
 
 ## ▶ 12. How to Run the Project
 
@@ -194,7 +194,6 @@ pip install -r requirements.txt
 python main.py
 ```
 
----
 
 ##  13. Sample Output
 
@@ -202,9 +201,9 @@ python main.py
 Silhouette Score: 0.66
 Davies-Bouldin Score: 0.42
 Optimal Clusters: 4
-```
 
----
+
+
 
 ##  14. Key Results
 
@@ -214,7 +213,7 @@ Optimal Clusters: 4
 * Churn-prone customers detected
 * Business-ready marketing recommendations generated
 
----
+
 
 ##  15. Real-World Impact
 
@@ -225,22 +224,14 @@ This system enables:
 * Churn reduction
 * Data-driven business strategy
 
----
+
 
 ##  Author
 
-Student Name: *Your Name*
-Course: *Your Course Name*
+Student Name: KS ABHIRAM 
+Course: AI AND ML LEARNING
 Project: Capstone Project – Advanced Customer Segmentation
 
----
 
-#  IMPORTANT
 
-After running your code:
 
-Replace the evaluation table values with actual results.
-
-This makes it look genuine and professional.
-
----
